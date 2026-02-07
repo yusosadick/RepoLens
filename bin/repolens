@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+# RepoLens launcher - automatically activates venv and runs repolens
+
+# Resolve symlink to get actual script location
+if [ -L "${BASH_SOURCE[0]}" ]; then
+    # If it's a symlink, resolve it
+    SCRIPT_PATH="$(readlink -f "${BASH_SOURCE[0]}")"
+else
+    # Otherwise use the source directly
+    SCRIPT_PATH="${BASH_SOURCE[0]}"
+fi
+
+# Get the directory where this script is located (resolved path)
+SCRIPT_DIR="$(cd "$(dirname "$SCRIPT_PATH")" && pwd)"
+PROJECT_DIR="$(dirname "$SCRIPT_DIR")"
+
+# Activate virtual environment
+source "$PROJECT_DIR/venv/bin/activate"
+
+# Run the actual repolens command with all passed arguments
+exec repolens "$@"

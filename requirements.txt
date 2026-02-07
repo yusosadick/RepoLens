@@ -1,0 +1,5 @@
+pytest>=7.0.0
+tqdm>=4.65.0
+colorama>=0.4.6
+textual>=0.40.0
+rich>=13.0.0

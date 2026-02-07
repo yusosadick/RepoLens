@@ -1,0 +1,18 @@
+{
+  "summary": "ملخص المشروع",
+  "files": "الملفات",
+  "lines": "الأسطر",
+  "characters": "الأحرف",
+  "by_extension": "حسب الامتداد",
+  "top_extensions": "أهم الامتدادات",
+  "analyzing": "جارٍ التحليل...",
+  "cloning": "جارٍ استنساخ المستودع...",
+  "error": "خطأ",
+  "invalid_path": "مسار غير صحيح",
+  "clone_failed": "فشل استنساخ المستودع",
+  "exported_to": "تم التصدير إلى",
+  "no_files_found": "لم يتم العثور على ملفات",
+  "extension": "الامتداد",
+  "file_count": "عدد الملفات",
+  "line_count": "عدد الأسطر"
+}

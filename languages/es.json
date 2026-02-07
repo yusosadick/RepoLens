@@ -1,0 +1,18 @@
+{
+  "summary": "Resumen del Proyecto",
+  "files": "Archivos",
+  "lines": "Líneas",
+  "characters": "Caracteres",
+  "by_extension": "Por Extensión",
+  "top_extensions": "Extensiones Principales",
+  "analyzing": "Analizando...",
+  "cloning": "Clonando repositorio...",
+  "error": "Error",
+  "invalid_path": "Ruta inválida",
+  "clone_failed": "Error al clonar el repositorio",
+  "exported_to": "Exportado a",
+  "no_files_found": "No se encontraron archivos",
+  "extension": "Extensión",
+  "file_count": "Cantidad de Archivos",
+  "line_count": "Cantidad de Líneas"
+}
